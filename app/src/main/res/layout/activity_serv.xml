@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServActiv">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout">
+
+        <EditText
+            android:id="@+id/et_time_wait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="500" />
+
+        <EditText
+            android:id="@+id/et_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="20" />
+
+        <ToggleButton
+            android:id="@+id/tb_localService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LocalService" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="20" />
+
+        <ToggleButton
+            android:id="@+id/tb_remoteService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RemoteService" />
+
+        <Button
+            android:id="@+id/but_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="But_Get" />
+
+        <Button
+            android:id="@+id/but_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="But_Send" />
+
+        <Button
+            android:id="@+id/but_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Task" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/but_thread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
